@@ -71,7 +71,7 @@ using static Nuke.Common.Tools.ReSharper.ReSharperTasks;
     OnPushBranchesIgnore = new[] { MasterBranch, ReleaseBranchPrefix + "/*" },
     OnPullRequestBranches = new[] { DevelopBranch },
     PublishArtifacts = false,
-    InvokedTargets = new[] { nameof(Test), nameof(Pack) })]
+    InvokedTargets = new[] { nameof(Analysis) })]
 [AppVeyor(
     AppVeyorImage.VisualStudio2019,
     AppVeyorImage.Ubuntu1804,

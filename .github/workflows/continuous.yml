@@ -31,19 +31,19 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Run './build.cmd Test Pack'
-        run: ./build.cmd Test Pack
+      - name: Run './build.cmd Analysis'
+        run: ./build.cmd Analysis
   ubuntu-latest:
     name: ubuntu-latest
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Run './build.cmd Test Pack'
-        run: ./build.cmd Test Pack
+      - name: Run './build.cmd Analysis'
+        run: ./build.cmd Analysis
   macOS-latest:
     name: macOS-latest
     runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Run './build.cmd Test Pack'
-        run: ./build.cmd Test Pack
+      - name: Run './build.cmd Analysis'
+        run: ./build.cmd Analysis
